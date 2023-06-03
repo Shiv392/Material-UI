@@ -23,6 +23,9 @@ import VisibleLabelSliderLabel from './components/slider/visibleLabel';
 import BasicTextFields from './components/textField/simpleTextField';
 import FormPropsTextFields from './components/textField/requiredTextField';
 import ColorToggleButton from './components/togglebutton/basicToggle';
+import HorizontalLinearStepper from './components/stepper/basicStepper';
+import TextMobileStepper from './components/stepper/mobilestepper';
+// import SwipeableTextMobileStepper from './components/stepper/carousel';
 
 
 
@@ -80,6 +83,11 @@ function App() {
      <div className='container mt-3 togglebutton'>
       <h1 className='text text-primary'>ToggleButton</h1>
       <ColorToggleButton />
+     </div>
+     <div className='container mt-3 stepper'>
+      <HorizontalLinearStepper />
+      <TextMobileStepper/>
+      {/* <SwipeableTextMobileStepper /> */}
      </div>
     </div>
   );
