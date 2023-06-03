@@ -25,6 +25,8 @@ import FormPropsTextFields from './components/textField/requiredTextField';
 import ColorToggleButton from './components/togglebutton/basicToggle';
 import HorizontalLinearStepper from './components/stepper/basicStepper';
 import TextMobileStepper from './components/stepper/mobilestepper';
+import TemporaryDrawer from './components/drawer/basicDrawer';
+import MiniDrawer from './components/drawer/minivarientDrawer';
 // import SwipeableTextMobileStepper from './components/stepper/carousel';
 
 
@@ -88,6 +90,12 @@ function App() {
       <HorizontalLinearStepper />
       <TextMobileStepper/>
       {/* <SwipeableTextMobileStepper /> */}
+     </div>
+     <div className='container mt-2 drawer'>
+      <h1 className='text text-primary'>Drawer</h1>
+      <TemporaryDrawer />z
+      <h1 className='text text-dark'>mini drawer</h1>
+      <MiniDrawer />
      </div>
     </div>
   );
