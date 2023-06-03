@@ -27,6 +27,10 @@ import HorizontalLinearStepper from './components/stepper/basicStepper';
 import TextMobileStepper from './components/stepper/mobilestepper';
 import TemporaryDrawer from './components/drawer/basicDrawer';
 import MiniDrawer from './components/drawer/minivarientDrawer';
+import SimpleBottomNavigation from './components/bottomnavigation/bottomnav';
+import BasicTabs from './components/tabs/basictabs';
+import VerticalTabs from './components/tabs/verticaltabs';
+import IconTabs from './components/tabs/icontabs';
 // import SwipeableTextMobileStepper from './components/stepper/carousel';
 
 
@@ -96,6 +100,16 @@ function App() {
       <TemporaryDrawer />z
       <h1 className='text text-dark'>mini drawer</h1>
       <MiniDrawer />
+     </div>
+     <div className='container mt-3 bottom-navigation'>
+      <SimpleBottomNavigation />
+     </div>
+     <div className='container mt-3 tabs'>
+      <h1 className='text text-danger'>Tabs</h1>
+      <BasicTabs />
+      <h1 className='text text-danger'>vertical tabs</h1>
+      <VerticalTabs />
+      <IconTabs />
      </div>
     </div>
   );
