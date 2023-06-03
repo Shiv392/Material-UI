@@ -32,6 +32,11 @@ import BasicTabs from './components/tabs/basictabs';
 import VerticalTabs from './components/tabs/verticaltabs';
 import IconTabs from './components/tabs/icontabs';
 import StandardImageList from './components/imagelist/imagelist';
+import SimpleDialogDemo from './components/dialog/basicdialog';
+import AlertDialog from './components/dialog/alertdialog';
+import AlertDialogSlide from './components/dialog/transition_in_alertdialog';
+import FormDialog from './components/dialog/formdialog';
+
 // import SwipeableTextMobileStepper from './components/stepper/carousel';
 
 
@@ -115,6 +120,17 @@ function App() {
      <div className='container mt-3 image-list'>
       <h1 className='text text-success'>ImageList</h1>
       <StandardImageList />
+     </div>
+     <div className='container mt-3 dialoge'>
+      <h1 className='text text-danger'>Dialog</h1>
+      <SimpleDialogDemo />
+      <h1 className='text text-dark'>alert dialog</h1>
+      <AlertDialog />
+      <h1 className='text text-secondary'>Transition in alertdialog</h1>
+      <AlertDialogSlide />
+      <h1 className='text text-primary'>Form Dialog</h1>
+      <FormDialog />
+    
      </div>
     </div>
   );
