@@ -31,6 +31,7 @@ import SimpleBottomNavigation from './components/bottomnavigation/bottomnav';
 import BasicTabs from './components/tabs/basictabs';
 import VerticalTabs from './components/tabs/verticaltabs';
 import IconTabs from './components/tabs/icontabs';
+import StandardImageList from './components/imagelist/imagelist';
 // import SwipeableTextMobileStepper from './components/stepper/carousel';
 
 
@@ -110,6 +111,10 @@ function App() {
       <h1 className='text text-danger'>vertical tabs</h1>
       <VerticalTabs />
       <IconTabs />
+     </div>
+     <div className='container mt-3 image-list'>
+      <h1 className='text text-success'>ImageList</h1>
+      <StandardImageList />
      </div>
     </div>
   );
